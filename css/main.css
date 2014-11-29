@@ -205,6 +205,8 @@ h4 {
 
 .columnas3 {
     background: #fff;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
     .columnas3 h4 {
         padding: 10px;
@@ -303,8 +305,13 @@ h4 {
     background: #FF777A;
     color: #fff;
 }
-.result {
-    position: absolute;
+#result {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    text-align: center;
+    border-top: 3px solid red;
 }
 /* ==========================================================================
    Helper classes
